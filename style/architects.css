@@ -1,0 +1,59 @@
+/* font style */
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Work+Sans:wght@400;600;700&display=swap');
+    *{
+    font-family: 'Work Sans', sans-serif;
+    }
+    header{
+        padding:50px 220px;
+        background: rgba(255, 144, 14, 0.10);
+    }
+nav {
+    display:flex ;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+nav ul{
+    display: flex;
+    text-align: center;
+}
+nav li{
+    list-style: none;
+    margin-right:30px ;
+    font-weight: 500;
+}
+nav a{
+    text-decoration: none;
+}
+.nav-title{
+    font-weight: 700;
+    font-size: 2.8em;
+}
+/* banner items */
+.button-primary{
+    width: 180px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    text-align: center;
+    font-weight: 600;
+    border: 0;
+    margin-bottom: 25px;
+}
+.bannner image{
+    width: 100%;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.baner-content{
+    max-width: 862px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-drescription{
+    color: #727272;
+    font-weight: 400px;
+}
